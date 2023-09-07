@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+  </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+</style>
+
+</head>
+<body>
+  <div class="container" id="main">
+    <div class="right">
+      <img src="image/illustration-sign-up-desktop.svg" alt="pic">
+    </div>
+     <div class="mainleft">
+    <div class="left">
+
+       <h1>Stay updated!</h1>
+       <p class="paratopleft">Join 60,000+ product managers receiving monthly idates on:</p>
+
+       <ul>
+        <li>Product discovery and building what matters
+        </li>
+        <li>Measuring to ensure updates are a success
+        </li>
+        <li>And much more!
+        </li>
+       </ul>
+          
+       <label for="inp">Email Address</label>
+       <input id="inp" type="email" required          placeholder="email@company.com"> 
+         
+       <button class="btn" onclick="validationonclick()">Subscribe to monthly newsletter</button>
+    </div>
+     </div>
+
+    
+  </div>
+<!-- valid page -->
+<div class="valid" id="validmsg">
+    <img src="image/icon-success.svg" alt="succes">
+    <h1 class="subscribed">Thank you for subscribing!</h1>
+
+    <div class="insertionpara" id="insertionpara">
+
+    </div>
+    <!-- <p class="parasubscribed">A confirmation email has been sent to (your email) Please open it and click the button inside to confirm your subscription. </p> -->
+    <button id="btn22" class="btn2" onclick="dismismessage()">Dismiss message</button>
+  </div>
+ 
+</body>
+<script src="script.js"></script>
+</html>
